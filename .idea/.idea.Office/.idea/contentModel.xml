@@ -51752,6 +51752,7 @@
       <e p="UE4Game.Target.cs" t="Include" />
     </e>
     <e p="C:\UnrealProjects\Office" t="IncludeFlat">
+      <e p=".gitignore" t="Include" />
       <e p="Config" t="Include">
         <e p="DefaultEditor.ini" t="Include" />
         <e p="DefaultEditorPerProjectUserSettings.ini" t="Include" />
@@ -51769,8 +51770,11 @@
       <e p="Office.sln" t="IncludeFlat" />
       <e p="Office.uproject" t="Include" />
       <e p="packages" t="ExcludeRecursive" />
+      <e p="README.md" t="Include" />
       <e p="Source" t="Include">
         <e p="Office" t="Include">
+          <e p="InteractionInterface.cpp" t="Include" />
+          <e p="InteractionInterface.h" t="Include" />
           <e p="Office.Build.cs" t="Include" />
           <e p="Office.cpp" t="Include" />
           <e p="Office.h" t="Include" />
