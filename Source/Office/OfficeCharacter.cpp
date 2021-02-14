@@ -54,10 +54,6 @@ void AOfficeCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerIn
 	// set up gameplay key bindings
 	check(PlayerInputComponent);
 
-	// Bind jump events
-	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
-	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
-
 	// Bind movement events
 	PlayerInputComponent->BindAxis("MoveForward", this, &AOfficeCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AOfficeCharacter::MoveRight);

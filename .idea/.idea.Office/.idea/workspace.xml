@@ -13,6 +13,7 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Source/Office/OfficeCharacter.h" />
+      <option value="$PROJECT_DIR$/Source/Office/InteractionInterface.h" />
       <option value="$PROJECT_DIR$/Source/Office/OfficeCharacter.cpp" />
     </changedPaths>
   </component>
